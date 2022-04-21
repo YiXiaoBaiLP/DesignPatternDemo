@@ -1,0 +1,17 @@
+package buzz.yixiaobai.flyweightpattern.demo04;
+
+/**
+ * @author yixiaobai
+ * @create 2022/04/21 下午7:37
+ */
+public class ConcreteFlyweight1 extends Flyweight{
+    // 接受外部状态
+    public ConcreteFlyweight1(String extrinsic) {
+        super(extrinsic);
+    }
+    // 根据外部状态进行逻辑处理
+    @Override
+    public void operate() {
+        // 业务处理
+    }
+}

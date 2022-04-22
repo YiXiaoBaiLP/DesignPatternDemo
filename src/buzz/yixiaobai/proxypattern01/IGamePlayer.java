@@ -1,4 +1,4 @@
-package buzz.yixiaobai.proxypattern;
+package buzz.yixiaobai.proxypattern01;
 
 /**
  * 普通代理模式

@@ -1,12 +1,7 @@
-package buzz.yixiaobai.proxypattern;
+package buzz.yixiaobai.proxypattern01;
 
-import java.text.SimpleDateFormat;
-import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
-import java.util.logging.SimpleFormatter;
-import java.util.zip.DataFormatException;
 
 /**
  * 场景类

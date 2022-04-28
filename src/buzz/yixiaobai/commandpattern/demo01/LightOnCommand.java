@@ -1,13 +1,11 @@
 package buzz.yixiaobai.commandpattern.demo01;
 
-import buzz.yixiaobai.commandpattern.Command;
-
 /**
  *
  * @author yixiaobai
  * @create 2022/04/27 下午2:57
  */
-public class LightCommand implements Command {
+public class LightOnCommand implements Command {
 
     private LightReceiver lightReceiver;
 
@@ -15,7 +13,7 @@ public class LightCommand implements Command {
      * 构造函数
      * @param lightReceiver
      */
-    public LightCommand(LightReceiver lightReceiver){
+    public LightOnCommand(LightReceiver lightReceiver){
         this.lightReceiver = lightReceiver;
     }
     /**

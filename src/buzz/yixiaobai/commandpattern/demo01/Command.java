@@ -1,4 +1,4 @@
-package buzz.yixiaobai.commandpattern;
+package buzz.yixiaobai.commandpattern.demo01;
 
 /**
  * 命令模式-创建命令接口
